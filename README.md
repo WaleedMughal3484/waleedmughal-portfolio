@@ -18,4 +18,7 @@ A responsive personal portfolio website showcasing my experience, projects, tech
 
 ## Run Locally
 
+```bash
 git clone https://github.com/WaleedMughal3484/waleedmughal-portfolio.git
+cd waleedmughal-portfolio
+
