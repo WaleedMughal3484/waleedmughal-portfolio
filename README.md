@@ -9,7 +9,6 @@ A responsive personal portfolio website showcasing my experience, projects, tech
 ## Features
 
 - Responsive desktop and mobile design
-- Fixed navigation bar
 - Interactive About section
 - Experience and project sections
 - Resume and certification links
