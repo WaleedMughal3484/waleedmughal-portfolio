@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Waleed Mughal | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- Fixed Navigation -->
+    <nav>
+        <a href="#header" class="logo-text">
+            Waleed Mughal
+        </a>
+
+        <ul id="sidemenu">
+            <li>
+                <a href="#header" onclick="closeMenu()">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#about" onclick="closeMenu()">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="#experience-section"
+                    onclick="closeMenu()"
+                >
+                    Experience
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects" onclick="closeMenu()">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact" onclick="closeMenu()">
+                    Contact
+                </a>
+            </li>
+
+            <i
+                class="fas fa-times"
+                onclick="closeMenu()"
+                aria-label="Close navigation menu"
+            ></i>
+        </ul>
+
+        <i
+            class="fas fa-bars"
+            onclick="openMenu()"
+            aria-label="Open navigation menu"
+        ></i>
+    </nav>
+
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+
+            <div class="hero-section">
+
+                <div class="header-text">
+                    <h1>
+                        Hi, I'm <span>Waleed Mughal</span>
+                    </h1>
+
+                    <p>
+                        3rd Year Computer Science Student at
+                        Dalhousie University
+                    </p>
+                </div>
+
+                <div class="header-image">
+                    <img
+                        src="images/Pic1.jpeg"
+                        alt="Waleed Mughal"
+                    >
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img
+                        src="images/Pic2.jpeg"
+                        alt="Waleed Mughal at Dalhousie University"
+                    >
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+
+                    <p>
+                        I am a third-year Computer Science Co-op student at
+                        Dalhousie University. I have completed a software
+                        development and verification co-op at Nautel, where I
+                        gained practical experience in automated testing,
+                        software quality and collaborative development. My
+                        interests include software development, cloud
+                        computing, cybersecurity, machine learning and
+                        building reliable applications that solve real-world
+                        problems.
+                    </p>
+
+                    <div class="tab-titles">
+
+                        <p
+                            class="tab-links active-link"
+                            onclick="openTab('skills', this)"
+                        >
+                            Skills
+                        </p>
+
+                        <p
+                            class="tab-links"
+                            onclick="openTab('education', this)"
+                        >
+                            Education
+                        </p>
+
+                        <p
+                            class="tab-links"
+                            onclick="openTab('certifications', this)"
+                        >
+                            Certifications
+                        </p>
+
+                    </div>
+
+                    <!-- Skills -->
+                    <div
+                        class="tab-contents active-tab"
+                        id="skills"
+                    >
+                        <ul>
+                            <li>
+                                <span>Languages</span><br>
+
+                                Java, Python, C, C#, TypeScript,
+                                JavaScript, SQL, HTML and CSS
+                            </li>
+
+                            <li>
+                                <span>
+                                    Frameworks and Libraries
+                                </span><br>
+
+                                ReactJS, Unity, Node.js, NumPy, Pandas,
+                                Streamlit, JUnit, Bootstrap and Playwright
+                            </li>
+
+                            <li>
+                                <span>Developer Tools</span><br>
+
+                                Git, GitHub, GitLab, GitLab CI/CD,
+                                VS Code, Eclipse and MySQL Workbench
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div
+                        class="tab-contents education-content"
+                        id="education"
+                    >
+                        <ul>
+                            <li>
+                                <span>
+                                    September 2023 – August 2027
+                                </span><br>
+
+                                <strong>
+                                    Bachelor of Science, Computer Science
+                                    (Dalhousie University)
+                                </strong>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div
+                        class="tab-contents certification-content"
+                        id="certifications"
+                    >
+                        <ul>
+                            <li>
+                                <span>
+                                    AWS Certified Cloud Practitioner
+                                </span><br>
+
+                                <strong>CLF-C02</strong>
+
+                                <a
+                                    href="https://lnkd.in/gtKERVVY"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="certificate-link"
+                                >
+                                    View Credential
+
+                                    <i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <span>
+                                    Cisco Certification
+                                </span><br>
+
+                                <strong>
+                                    Introduction to Cybersecurity
+                                </strong>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="experience-section">
+        <div class="container">
+
+            <h1 class="sub-title">
+                My Experience
+            </h1>
+
+            <div class="experience-list">
+
+                <div class="experience-card">
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>
+                        Nautel
+                    </h2>
+
+                    <h3>
+                        Software Developer and Verification Co-op
+                    </h3>
+
+                    <p class="experience-date">
+                        January 2026 – April 2026
+                    </p>
+
+                    <p>
+                        Developed and maintained automated end-to-end tests
+                        using Playwright, Cucumber and TypeScript. Created
+                        more than 150 tests and over 200 test IDs, helping
+                        improve test coverage by 25 percent. I also
+                        refactored locators to use reliable AUI test IDs,
+                        improving the stability and maintainability of the
+                        test suite.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                    <h2>
+                        Faysal Bank
+                    </h2>
+
+                    <h3>
+                        Web Developer Intern
+                    </h3>
+
+                    <p class="experience-date">
+                        May 2025 – August 2025
+                    </p>
+
+                    <p>
+                        Developed responsive web interfaces using React,
+                        JavaScript, HTML, CSS and Bootstrap. Worked with REST
+                        APIs and improved internal processes, helping save
+                        more than 10 hours of work each week. I also improved
+                        page performance through code refactoring and caching,
+                        reducing load times by approximately 20 percent.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+
+            <h1 class="sub-title">
+                My Projects
+            </h1>
+
+            <div class="projects-list">
+
+                <!-- PredictHealth -->
+                <div class="project-card">
+
+                    <div class="project-card-top">
+
+                        <div class="project-icon">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+
+                        <a
+                            href="https://github.com/WaleedMughal3484/PredictHealth"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-github"
+                            aria-label="Open PredictHealth on GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+
+                    <p class="project-date">
+                        September 2025
+                    </p>
+
+                    <h2>
+                        PredictHealth
+                    </h2>
+
+                    <h3>
+                        Machine Learning Diabetes Predictor
+                    </h3>
+
+                    <p class="project-description">
+                        PredictHealth is an interactive machine-learning web
+                        application that estimates whether a patient may be
+                        diabetic based on health indicators such as glucose
+                        level, blood pressure, BMI, insulin level, age and
+                        family-history data.
+                    </p>
+
+                    <p class="project-description">
+                        I trained a Random Forest Classifier using a real-world
+                        diabetes dataset and applied data preprocessing and
+                        standard scaling to prepare the inputs. The model
+                        achieved approximately 72% prediction accuracy and was
+                        integrated into a Streamlit interface for quick and
+                        accessible predictions.
+                    </p>
+
+                    <div class="project-technologies">
+                        <span>Python</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Scikit-learn</span>
+                        <span>Streamlit</span>
+                        <span>OpenAI</span>
+                    </div>
+
+                    <a
+                        href="https://github.com/WaleedMughal3484/PredictHealth"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project
+
+                        <i
+                            class="fa-solid fa-arrow-up-right-from-square"
+                        ></i>
+                    </a>
+
+                </div>
+
+                <!-- QuickCash -->
+                <div class="project-card">
+
+                    <div class="project-card-top">
+
+                        <div class="project-icon">
+                            <i
+                                class="fa-solid fa-mobile-screen-button"
+                            ></i>
+                        </div>
+
+                        <div class="project-team-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+
+                    </div>
+
+                    <p class="project-date">
+                        December 2025
+                    </p>
+
+                    <h2>
+                        QuickCash
+                    </h2>
+
+                    <h3>
+                        Android Job Marketplace Application
+                    </h3>
+
+                    <p class="project-description">
+                        QuickCash is an Android job marketplace application
+                        designed to connect employers with workers through
+                        job postings, searchable opportunities and role-based
+                        user experiences. The application was developed as
+                        part of a six-member software development team.
+                    </p>
+
+                    <p class="project-description">
+                        I helped develop core features using Java and Android
+                        Studio, including employer dashboards, job-posting
+                        workflows, authentication, application navigation and
+                        PayPal payment integration. Firebase Authentication
+                        and Realtime Database were used for user accounts,
+                        roles and persistent application data.
+                    </p>
+
+                    <p class="project-description">
+                        Our team used GitLab branches, commits, merge requests
+                        and code-review workflows to develop features
+                        independently while maintaining a stable and
+                        integrated application.
+                    </p>
+
+                    <div class="project-technologies">
+                        <span>Java</span>
+                        <span>Android Studio</span>
+                        <span>Firebase</span>
+                        <span>Git</span>
+                        <span>GitLab</span>
+                        <span>PayPal SDK</span>
+                    </div>
+
+                    <div class="project-team-note">
+                        <i class="fa-solid fa-people-group"></i>
+
+                        Built collaboratively in a six-member team
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="contact-left">
+
+                    <h1 class="sub-title">
+                        Contact Me
+                    </h1>
+
+                    <p>
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                        <a
+                            href="mailto:Waleed.Mughal@dal.ca"
+                            class="email-link"
+                        >
+                            Waleed.Mughal@dal.ca
+                        </a>
+                    </p>
+
+                    <div class="social-icons">
+
+                        <a
+                            href="https://github.com/WaleedMughal3484"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/waleedmughal1/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                    <a
+                        href="Waleed-Resume.pdf"
+                        class="btn btn2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Download Resume
+                    </a>
+
+                </div>
+
+                <div class="contact-right">
+
+                    <form
+                        action="https://formsubmit.co/Waleed.Mughal@dal.ca"
+                        method="POST"
+                    >
+                        <input
+                            type="hidden"
+                            name="_subject"
+                            value="New Portfolio Contact Message"
+                        >
+
+                        <input
+                            type="hidden"
+                            name="_captcha"
+                            value="false"
+                        >
+
+                        <input
+                            type="hidden"
+                            name="_template"
+                            value="table"
+                        >
+
+                        <input
+                            type="text"
+                            name="Name"
+                            placeholder="Your Name"
+                            autocomplete="name"
+                            required
+                        >
+
+                        <input
+                            type="email"
+                            name="Email"
+                            placeholder="Your Email"
+                            autocomplete="email"
+                            required
+                        >
+
+                        <textarea
+                            name="Message"
+                            rows="6"
+                            placeholder="Your Message"
+                            required
+                        ></textarea>
+
+                        <button
+                            type="submit"
+                            class="btn btn2"
+                        >
+                            Submit
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                &copy; 2026 Waleed Mughal. All rights reserved.
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        const tabLinks =
+            document.querySelectorAll(".tab-links");
+
+        const tabContents =
+            document.querySelectorAll(".tab-contents");
+
+        const sideMenu =
+            document.getElementById("sidemenu");
+
+        function openTab(tabName, selectedTab) {
+            tabLinks.forEach((tabLink) => {
+                tabLink.classList.remove("active-link");
+            });
+
+            tabContents.forEach((tabContent) => {
+                tabContent.classList.remove("active-tab");
+            });
+
+            selectedTab.classList.add("active-link");
+
+            document
+                .getElementById(tabName)
+                .classList.add("active-tab");
+        }
+
+        function openMenu() {
+            sideMenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            sideMenu.style.right = "-220px";
+        }
+    </script>
+
+</body>
+</html>
