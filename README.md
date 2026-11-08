@@ -4,7 +4,7 @@ A responsive personal portfolio website showcasing my experience, projects, tech
 
 ## Live Website
 
-[View My Portfolio](https://waleedmughal-portfolio.netlify.app/)
+[View My Portfolio](https://waleedmughal-portfolio1.netlify.app/)
 
 ## Features
 
