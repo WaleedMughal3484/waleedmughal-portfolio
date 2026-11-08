@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Waleed Mughal | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -13,16 +19,46 @@
 </head>
 
 <body>
+
     <!-- Fixed Navigation -->
     <nav>
-        <a href="#header" class="logo-text">Waleed Mughal</a>
+        <a href="#header" class="logo-text">
+            Waleed Mughal
+        </a>
 
         <ul id="sidemenu">
-            <li><a href="#header" onclick="closeMenu()">Home</a></li>
-            <li><a href="#about" onclick="closeMenu()">About</a></li>
-            <li><a href="#experience-section" onclick="closeMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            <li>
+                <a href="#header" onclick="closeMenu()">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#about" onclick="closeMenu()">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="#experience-section"
+                    onclick="closeMenu()"
+                >
+                    Experience
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects" onclick="closeMenu()">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact" onclick="closeMenu()">
+                    Contact
+                </a>
+            </li>
 
             <i
                 class="fas fa-times"
@@ -41,9 +77,13 @@
     <!-- Header -->
     <div id="header">
         <div class="container">
+
             <div class="hero-section">
+
                 <div class="header-text">
-                    <h1>Hi, I'm <span>Waleed Mughal</span></h1>
+                    <h1>
+                        Hi, I'm <span>Waleed Mughal</span>
+                    </h1>
 
                     <p>
                         3rd Year Computer Science Student at
@@ -52,16 +92,23 @@
                 </div>
 
                 <div class="header-image">
-                    <img src="images/Pic1.jpeg" alt="Waleed Mughal">
+                    <img
+                        src="images/Pic1.jpeg"
+                        alt="Waleed Mughal"
+                    >
                 </div>
+
             </div>
+
         </div>
     </div>
 
     <!-- About -->
     <div id="about">
         <div class="container">
+
             <div class="row">
+
                 <div class="about-col-1">
                     <img
                         src="images/Pic2.jpeg"
@@ -70,7 +117,9 @@
                 </div>
 
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
 
                     <p>
                         I am a third-year Computer Science Co-op student at
@@ -79,41 +128,61 @@
                         gained practical experience in automated testing,
                         software quality and collaborative development. My
                         interests include software development, cloud
-                        computing, cybersecurity and building reliable
-                        applications that solve real-world problems.
+                        computing, cybersecurity and
+                        building reliable applications that solve real-world
+                        problems.
                     </p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="openTab('skills', this)">
+
+                        <p
+                            class="tab-links active-link"
+                            onclick="openTab('skills', this)"
+                        >
                             Skills
                         </p>
 
-                        <p class="tab-links" onclick="openTab('education', this)">
+                        <p
+                            class="tab-links"
+                            onclick="openTab('education', this)"
+                        >
                             Education
                         </p>
 
-                        <p class="tab-links" onclick="openTab('certifications', this)">
+                        <p
+                            class="tab-links"
+                            onclick="openTab('certifications', this)"
+                        >
                             Certifications
                         </p>
+
                     </div>
 
                     <!-- Skills -->
-                    <div class="tab-contents active-tab" id="skills">
+                    <div
+                        class="tab-contents active-tab"
+                        id="skills"
+                    >
                         <ul>
                             <li>
                                 <span>Languages</span><br>
+
                                 Java, Python, C, C#, TypeScript,
                                 JavaScript, SQL, HTML and CSS
                             </li>
 
                             <li>
-                                <span>Frameworks and Libraries</span><br>
+                                <span>
+                                    Frameworks and Libraries
+                                </span><br>
+
                                 ReactJS, Unity, Node.js, NumPy, Pandas,
                                 Streamlit, JUnit, Bootstrap and Playwright
                             </li>
 
                             <li>
                                 <span>Developer Tools</span><br>
+
                                 Git, GitHub, GitLab, GitLab CI/CD,
                                 VS Code, Eclipse and MySQL Workbench
                             </li>
@@ -121,10 +190,15 @@
                     </div>
 
                     <!-- Education -->
-                    <div class="tab-contents education-content" id="education">
+                    <div
+                        class="tab-contents education-content"
+                        id="education"
+                    >
                         <ul>
                             <li>
-                                <span>September 2023 – August 2027</span><br>
+                                <span>
+                                    September 2023 – August 2027
+                                </span><br>
 
                                 <strong>
                                     Bachelor of Science, Computer Science
@@ -135,25 +209,16 @@
                     </div>
 
                     <!-- Certifications -->
-                    <div class="tab-contents certification-content" id="certifications">
+                    <div
+                        class="tab-contents certification-content"
+                        id="certifications"
+                    >
                         <ul>
                             <li>
-                                <span>ISC2 Certified in Cybersecurity</span><br>
-                                <strong>CC</strong>
+                                <span>
+                                    AWS Certified Cloud Practitioner
+                                </span><br>
 
-                                <a
-                                    href="https://www.credly.com/badges/df97e17f-8751-4cba-933a-3d54400cf499/public_url"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="certificate-link"
-                                >
-                                    View Credential
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
-                            </li>
-
-                            <li>
-                                <span>AWS Certified Cloud Practitioner</span><br>
                                 <strong>CLF-C02</strong>
 
                                 <a
@@ -163,13 +228,21 @@
                                     class="certificate-link"
                                 >
                                     View Credential
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                    <i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
                                 </a>
                             </li>
 
                             <li>
-                                <span>Cisco Certification</span><br>
-                                <strong>Introduction to Cybersecurity</strong>
+                                <span>
+                                    Cisco Certification
+                                </span><br>
+
+                                <strong>
+                                    Introduction to Cybersecurity
+                                </strong>
 
                                 <a
                                     href="https://www.credly.com/badges/4ec9742e-402d-466a-aee9-9025b10298c0/public_url"
@@ -178,13 +251,21 @@
                                     class="certificate-link"
                                 >
                                     View Credential
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                    <i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
                                 </a>
                             </li>
 
                             <li>
-                                <span>ShiftKey Academy</span><br>
-                                <strong>SQL Foundations Certification</strong>
+                                <span>
+                                    ShiftKey Academy
+                                </span><br>
+
+                                <strong>
+                                    SQL Foundations Certification
+                                </strong>
 
                                 <a
                                     href="https://credsverse.com/credentials/becf1de3-5df5-49df-af55-f6bad93db212"
@@ -193,47 +274,42 @@
                                     class="certificate-link"
                                 >
                                     View Credential
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                    <i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
     </div>
 
     <!-- Experience -->
     <div id="experience-section">
         <div class="container">
-            <h1 class="sub-title">My Experience</h1>
+
+            <h1 class="sub-title">
+                My Experience
+            </h1>
 
             <div class="experience-list">
-                <div class="experience-card">
-                    <i class="fa-solid fa-headset"></i>
-
-                    <h2>Dalhousie University</h2>
-                    <h3>IT Support Analyst | Faculty of Computer Science Help Desk</h3>
-
-                    <p class="experience-date">
-                        September 2026 – December 2026
-                    </p>
-
-                    <p>
-                        Manage Active Directory accounts, permissions and
-                        security group memberships. Resolve CSID login and
-                        access issues, assist with multifactor authentication
-                        rollout, and troubleshoot enrolment and sign-in issues.
-                        Document issues and resolutions in the ticketing system
-                        and coordinate follow-ups through Microsoft Teams.
-                    </p>
-                </div>
 
                 <div class="experience-card">
                     <i class="fa-solid fa-code"></i>
 
-                    <h2>Nautel</h2>
-                    <h3>Software Developer Intern</h3>
+                    <h2>
+                        Nautel
+                    </h2>
+
+                    <h3>
+                        Software Developer Intern
+                    </h3>
 
                     <p class="experience-date">
                         January 2026 – April 2026
@@ -253,8 +329,13 @@
                 <div class="experience-card">
                     <i class="fa-solid fa-laptop-code"></i>
 
-                    <h2>Faysal Bank</h2>
-                    <h3>Web Developer Intern</h3>
+                    <h2>
+                        Faysal Bank
+                    </h2>
+
+                    <h3>
+                        Web Developer Intern
+                    </h3>
 
                     <p class="experience-date">
                         May 2025 – August 2025
@@ -269,80 +350,101 @@
                         reducing load times by approximately 20 percent.
                     </p>
                 </div>
+
             </div>
+
         </div>
     </div>
 
     <!-- Projects -->
     <div id="projects">
         <div class="container">
-            <h1 class="sub-title">My Projects</h1>
+
+            <h1 class="sub-title">
+                My Projects
+            </h1>
 
             <div class="projects-list">
-                <!-- RouteWise -->
-                <div class="project-card">
-                    <div class="project-card-top">
-                        <div class="project-icon">
-                            <i class="fa-solid fa-plane-departure"></i>
-                        </div>
 
-                        <a
-                            href="https://github.com/WaleedMughal3484/RouteWise"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-github"
-                            aria-label="Open RouteWise on GitHub"
-                        >
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </div>
+               <!-- RouteWise -->
+<div class="project-card">
 
-                    <p class="project-date">July 2026</p>
-                    <h2>RouteWise</h2>
-                    <h3>Flight Intelligence Platform</h3>
+    <div class="project-card-top">
 
-                    <p class="project-description">
-                        Developed a full-stack flight intelligence platform
-                        with a React frontend and FastAPI backend, enabling
-                        users to search, filter, sort and compare simulated
-                        domestic and international flights.
-                    </p>
+        <div class="project-icon">
+            <i class="fa-solid fa-plane-departure"></i>
+        </div>
 
-                    <p class="project-description">
-                        Implemented advanced features including airport
-                        autocomplete, favorites, recent searches, flight
-                        comparison, best-value recommendations and responsive
-                        UI using reusable React components and custom hooks.
-                    </p>
+        <a
+            href="https://github.com/WaleedMughal3484/RouteWise"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-github"
+            aria-label="Open RouteWise on GitHub"
+        >
+            <i class="fa-brands fa-github"></i>
+        </a>
 
-                    <p class="project-description">
-                        Designed RESTful API endpoints and a JSON-based flight
-                        database supporting airline, price, stop and route
-                        filtering, with backend validation and error handling.
-                    </p>
+    </div>
 
-                    <div class="project-technologies">
-                        <span>React</span>
-                        <span>Vite</span>
-                        <span>FastAPI</span>
-                        <span>Python</span>
-                        <span>JavaScript</span>
-                    </div>
+    <p class="project-date">
+        July 2026
+    </p>
 
-                    <a
-                        href="https://github.com/WaleedMughal3484/RouteWise"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-link"
-                    >
-                        View Project
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </div>
+    <h2>
+        RouteWise
+    </h2>
+
+    <h3>
+        Flight Intelligence Platform
+    </h3>
+
+    <p class="project-description">
+        Developed a full-stack flight intelligence platform
+        with a React frontend and FastAPI backend, enabling
+        users to search, filter, sort and compare simulated
+        domestic and international flights.
+    </p>
+
+    <p class="project-description">
+        Implemented advanced features including airport
+        autocomplete, favorites, recent searches, flight
+        comparison, best-value recommendations and responsive
+        UI using reusable React components and custom hooks.
+    </p>
+
+    <p class="project-description">
+        Designed RESTful API endpoints and a JSON-based flight
+        database supporting airline, price, stop and route
+        filtering, with backend validation and error handling.
+    </p>
+
+    <div class="project-technologies">
+        <span>React</span>
+        <span>Vite</span>
+        <span>FastAPI</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+    </div>
+
+    <a
+        href="https://github.com/WaleedMughal3484/RouteWise"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-link"
+    >
+        View Project
+
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+
+</div>
 
                 <!-- PredictHealth -->
                 <div class="project-card">
+
                     <div class="project-card-top">
+
                         <div class="project-icon">
                             <i class="fa-solid fa-heart-pulse"></i>
                         </div>
@@ -356,11 +458,20 @@
                         >
                             <i class="fa-brands fa-github"></i>
                         </a>
+
                     </div>
 
-                    <p class="project-date">September 2025</p>
-                    <h2>PredictHealth</h2>
-                    <h3>Machine Learning Diabetes Predictor</h3>
+                    <p class="project-date">
+                        September 2025
+                    </p>
+
+                    <h2>
+                        PredictHealth
+                    </h2>
+
+                    <h3>
+                        Machine Learning Diabetes Predictor
+                    </h3>
 
                     <p class="project-description">
                         PredictHealth is an interactive machine-learning web
@@ -395,25 +506,40 @@
                         class="project-link"
                     >
                         View Project
+
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
+
                 </div>
 
                 <!-- QuickCash -->
                 <div class="project-card">
+
                     <div class="project-card-top">
+
                         <div class="project-icon">
-                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <i
+                                class="fa-solid fa-mobile-screen-button"
+                            ></i>
                         </div>
 
                         <div class="project-team-icon">
                             <i class="fa-solid fa-users"></i>
                         </div>
+
                     </div>
 
-                    <p class="project-date">December 2025</p>
-                    <h2>QuickCash</h2>
-                    <h3>Android Job Marketplace Application</h3>
+                    <p class="project-date">
+                        December 2025
+                    </p>
+
+                    <h2>
+                        QuickCash
+                    </h2>
+
+                    <h3>
+                        Android Job Marketplace Application
+                    </h3>
 
                     <p class="project-description">
                         QuickCash is an Android job marketplace application
@@ -450,29 +576,42 @@
 
                     <div class="project-team-note">
                         <i class="fa-solid fa-people-group"></i>
+
                         Built collaboratively in a six-member team
                     </div>
+
                 </div>
+
             </div>
+
         </div>
     </div>
 
     <!-- Contact -->
     <div id="contact">
         <div class="container">
+
             <div class="row">
+
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
+
+                    <h1 class="sub-title">
+                        Contact Me
+                    </h1>
 
                     <p>
                         <i class="fa-solid fa-paper-plane"></i>
 
-                        <a href="mailto:Waleed.Mughal@dal.ca" class="email-link">
+                        <a
+                            href="mailto:Waleed.Mughal@dal.ca"
+                            class="email-link"
+                        >
                             Waleed.Mughal@dal.ca
                         </a>
                     </p>
 
                     <div class="social-icons">
+
                         <a
                             href="https://github.com/WaleedMughal3484"
                             target="_blank"
@@ -490,19 +629,22 @@
                         >
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
+
                     </div>
 
                     <a
-                        href="Waleed-Resume-Updated.pdf"
+                        href="Waleed-Resume.pdf"
                         class="btn btn2"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Download Resume
                     </a>
+
                 </div>
 
                 <div class="contact-right">
+
                     <form
                         action="https://formsubmit.co/Waleed.Mughal@dal.ca"
                         method="POST"
@@ -548,23 +690,38 @@
                             required
                         ></textarea>
 
-                        <button type="submit" class="btn btn2">
+                        <button
+                            type="submit"
+                            class="btn btn2"
+                        >
                             Submit
                         </button>
+
                     </form>
+
                 </div>
+
             </div>
+
         </div>
 
         <div class="copyright">
-            <p>&copy; 2026 Waleed Mughal. All rights reserved.</p>
+            <p>
+                &copy; 2026 Waleed Mughal. All rights reserved.
+            </p>
         </div>
+
     </div>
 
     <script>
-        const tabLinks = document.querySelectorAll(".tab-links");
-        const tabContents = document.querySelectorAll(".tab-contents");
-        const sideMenu = document.getElementById("sidemenu");
+        const tabLinks =
+            document.querySelectorAll(".tab-links");
+
+        const tabContents =
+            document.querySelectorAll(".tab-contents");
+
+        const sideMenu =
+            document.getElementById("sidemenu");
 
         function openTab(tabName, selectedTab) {
             tabLinks.forEach((tabLink) => {
@@ -576,7 +733,10 @@
             });
 
             selectedTab.classList.add("active-link");
-            document.getElementById(tabName).classList.add("active-tab");
+
+            document
+                .getElementById(tabName)
+                .classList.add("active-tab");
         }
 
         function openMenu() {
@@ -587,5 +747,6 @@
             sideMenu.style.right = "-220px";
         }
     </script>
+
 </body>
 </html>
